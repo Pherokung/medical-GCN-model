@@ -22,7 +22,7 @@ class LADataLoader(DataLoader):
                 transforms.Resize(args.image_size),
                 transforms.RandomCrop(args.crop_size),
                 transforms.RandomHorizontalFlip(),
-                 transform = transforms.RandomAffine(degrees=0, translate=(0.2, 0.2), scale=(0.8, 0.8), fill=0),
+                transforms.RandomAffine(degrees=0, translate=(0.2, 0.2), scale=(0.8, 0.8), fill=0),
                 transforms.ToTensor(),
                 normalize])
         else:
