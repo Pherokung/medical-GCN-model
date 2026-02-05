@@ -1,7 +1,7 @@
 # dataset infomation
 dataset_name: iu_xray
-image_dir: D:/code/database/iu_xray/images/
-ann_path: D:/code/database/iu_xray/annotation.json
+image_dir: data/iu_xray/images/
+ann_path: data/iu_xray/annotation.json
 label_path: data/labels/IU/IU_lab.csv
 
 # dataset_name: COV-CTR
