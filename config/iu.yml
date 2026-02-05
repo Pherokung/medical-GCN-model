@@ -21,7 +21,7 @@ num_labels: 14
 threshold: 3
 
 batch_size: 20
-epochs: 30
+epochs: 1
 step_size: 80
 
 num_layers: 3
